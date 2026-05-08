@@ -10,14 +10,13 @@ sensitive headers redacted by default.
 from __future__ import annotations
 
 import contextlib
-import dataclasses
 import difflib
 import json
 import re
 import threading
 import time
-from dataclasses import dataclass, field
-from typing import Any, Callable, Iterator, Optional, Pattern
+from dataclasses import dataclass
+from typing import Any, Iterator, Optional, Pattern
 
 import httpx
 
